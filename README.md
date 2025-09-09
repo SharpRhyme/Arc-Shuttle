@@ -5,7 +5,7 @@ The scoring system will operate as follows:
 - the system will save scores permanently for the future ranking system.
 - there will be a live score input option for referees to also track who serves
 
-#why this matters?
+# why this matters?
 the current popular format of ebadders is not open source, and utilises ranking against other players, or letters to define individual rank
 
 Instead I plan to utilise an optional leaderboard system, with more focus on a players individual score (0-100). I also hope this will allow me to create a fairer algorithm allowing players to easily join other clubs and get an accurate ranking earlier.
