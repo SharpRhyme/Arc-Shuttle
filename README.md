@@ -10,7 +10,13 @@ the current popular format of ebadders is not open source, and utilises ranking 
 
 Instead I plan to utilise an optional leaderboard system, with more focus on a players individual score (0-100). I also hope this will allow me to create a fairer algorithm allowing players to easily join other clubs and get an accurate ranking earlier.
 
-By talking to my badminton coach I identified that the current main platform ebadders prefers mixed ability balanced matches, leaving higher level players wishing for more competitive matches. This is something I intend to change in my program.
+# what I plan to integrate
+
+- Uses Pandas for match data analysis and player statistics.
+- Implements a custom ranking algorithm inspired by competitive rating systems.
+- Integrates a neural network that learns from past matches by prioristing games with low point difference
+- Prioritizes future matchups likely to be competitive.
+- Includes visualizations of player performance and match quality.
 
 Furthermore my recreational club organiser brought up some points:
     The program should take into account point difference of win, rather than just win or lose on a players ranking
