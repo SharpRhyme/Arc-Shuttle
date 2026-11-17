@@ -1,5 +1,17 @@
 Arc shuttle (or arc for short) is for me to join my hobby of badminton with programming, to do this I will create a scoring system, scheduler for matches as well as eventually a ranking system. 
 
+## Setup
+
+The leaderboard display uses [Rich](https://github.com/Textualize/rich) to format its terminal output. Install it with:
+
+```bash
+python3 -m pip install rich
+```
+
+## SQLite database
+
+The `database.py` module stores player ratings and match history in a local SQLite database. Call `init_db()` once when starting the application to create the tables. The module includes player CRUD helpers, completed-match logging, CSV leaderboard export, and a Rich-formatted display of the top 10 players.
+
 The scoring system will operate as follows:
 - user will input singles/doubles, names of players and a predefined final score/prescense of deuce
 - the system will save scores permanently for the future ranking system.
